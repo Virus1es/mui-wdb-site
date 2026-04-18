@@ -30,5 +30,14 @@ export default makeStyles((theme) => ({
         left: 0,
         right: 0,
         backgroundColor: "rgba(0,0,0,.4)",
+    },
+    cardMedia: {
+        paddingTop: "56.25%",
+    },
+    cardContent: {
+        flexGrow: 1,
+    },
+    cardGrid: {
+        marginTop: theme.spacing(4),
     }
 }));
