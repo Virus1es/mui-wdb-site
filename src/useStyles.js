@@ -9,5 +9,25 @@ export default makeStyles((theme) => ({
     },
     title: {
         flexGrow: 1,
+    },
+    mainFeaturesPost: {
+        position: "relative",
+        color: theme.palette.common.white,
+        marginBottom: theme.spacing(4),
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+    },
+    mainFeaturesPostContent: {
+        position: "relative",
+        padding: theme.spacing(9),
+    },
+    overlay: {
+        position: "absolute",
+        top: 0,
+        bottom: 0,
+        left: 0,
+        right: 0,
+        backgroundColor: "rgba(0,0,0,.3)",
     }
 }));
