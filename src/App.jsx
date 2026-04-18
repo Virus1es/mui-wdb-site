@@ -3,10 +3,12 @@ import useStyles from "./styles/useStyles.js";
 import UpBanner from "./components/UpBanner.jsx";
 import TitleBlock from "./components/TitleBlock.jsx";
 import BlogsGrid from "./components/BlogsGrid.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 function App() {
     const classes = useStyles();
+
     return (
         <>
             <NavBar/>
@@ -15,6 +17,7 @@ function App() {
                 <TitleBlock/>
                 <BlogsGrid/>
             </main>
+            <Footer/>
         </>
     )
 }
