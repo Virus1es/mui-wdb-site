@@ -19,16 +19,18 @@ const UpBanner = () => {
                             <Typography
                                 component="h2"
                                 variant="h3"
-                                color="white"
+                                color="inherit"
                                 gutterBottom
+                                sx={{color: "#ddd"}}
                             >
                                 Dogs lovers
                             </Typography>
                             <Typography
                                 component="h5"
                                 variant="h5"
-                                color="white"
+                                color="inherit"
                                 gutterBottom
+                                sx={{color: "#ddd"}}
                             >
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti error
                                 exercitationem facilis, ipsum libero minus nisi odio optio quia quisquam quo,
