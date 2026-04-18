@@ -8,7 +8,7 @@ import {
     Typography
 } from "@mui/material";
 import {Menu} from '@mui/icons-material';
-import useStyles from "./useStyles.js";
+import useStyles from "../styles/useStyles.js";
 
 
 const NavBar = () => {

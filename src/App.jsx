@@ -1,6 +1,6 @@
-import NavBar from "./NavBar.jsx";
-import useStyles from "./useStyles.js";
-import UpBanner from "./UpBanner.jsx";
+import NavBar from "./components/NavBar.jsx";
+import useStyles from "./styles/useStyles.js";
+import UpBanner from "./components/UpBanner.jsx";
 
 function App() {
     const classes = useStyles();

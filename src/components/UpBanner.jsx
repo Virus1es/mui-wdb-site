@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button, Container, Grid, Paper, Typography} from "@mui/material";
-import useStyles from "./useStyles.js";
+import useStyles from "../styles/useStyles.js";
 
 const UpBanner = () => {
     const classes = useStyles();
