@@ -1,7 +1,29 @@
-import {AppBar, Box, Button, Container, IconButton, Toolbar, Typography} from "@mui/material";
+import {
+    AppBar,
+    Box,
+    Button,
+    Container,
+    IconButton,
+    Toolbar,
+    Typography
+} from "@mui/material";
 import {Menu} from '@mui/icons-material';
+import {makeStyles} from '@mui/styles';
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        flexGrow: 1,
+    },
+    menuButton: {
+        marginRight: theme.spacing(1),
+    },
+    title: {
+        flexGrow: 1,
+    }
+}));
 
 function App() {
+    const classes = useStyles();
     return (
         <>
             <AppBar position="fixed">
@@ -11,6 +33,7 @@ function App() {
                             edge="start"
                             color="inherit"
                             aria-label="Menu"
+                            className={classes.menuButton}
                         >
                             <Menu/>
                         </IconButton>
@@ -18,11 +41,12 @@ function App() {
                         <Typography
                             variant="h6"
                             component="h1"
+                            className={classes.title}
                         >
                             Dogs lovers
                         </Typography>
 
-                        <Box sx={{ mx: 3 }}>
+                        <Box sx={{mx: 3}}>
                             <Button
                                 variant="outlined"
                                 color="inherit"
