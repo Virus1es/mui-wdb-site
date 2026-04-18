@@ -20,7 +20,8 @@ export default makeStyles((theme) => ({
     },
     mainFeaturesPostContent: {
         position: "relative",
-        padding: theme.spacing(9),
+        padding: theme.spacing(6),
+        marginTop: theme.spacing(8),
     },
     overlay: {
         position: "absolute",
@@ -28,6 +29,6 @@ export default makeStyles((theme) => ({
         bottom: 0,
         left: 0,
         right: 0,
-        backgroundColor: "rgba(0,0,0,.3)",
+        backgroundColor: "rgba(0,0,0,.4)",
     }
 }));
